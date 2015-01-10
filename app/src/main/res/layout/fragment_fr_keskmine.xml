@@ -1,7 +1,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/b"
+    android:background="@drawable/bg_bw"
     android:layout_height="match_parent"
     tools:context="com.example.hindedfr.FrKeskmine" >
 <!--     android:background="#CCFF00" -->
