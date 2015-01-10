@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/b"
+    android:layout_height="match_parent"
+    tools:context="com.example.hindedfr.FrKeskmine" >
+<!--     android:background="#CCFF00" -->
+    
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/mapunneTxt"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            
+            android:textSize="22sp"
+            android:text="@string/max_punkte"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/maxpunneSisend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/protsentTxt"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/protsentTxt"
+            android:ems="3"
+            android:hint="@string/_0"
+            android:inputType="number"
+            android:textSize="28sp"
+            android:textStyle="bold" >
+
+<requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/punneSisend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/maxpunneSisend"
+            android:layout_alignRight="@+id/maxpunneSisend"
+            android:layout_below="@+id/maxpunneSisend"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:ems="3"
+            android:hint="@string/_0"
+            android:inputType="number" >
+     
+            </EditText>
+
+        <TextView
+            android:id="@+id/punneTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/punneSisend"
+            android:layout_alignParentLeft="true"
+            
+            android:textSize="22sp"
+            android:text="@string/punkte"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<!--         <TextView -->
+<!--             android:id="@+id/ProtsenttextView" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_above="@+id/hinneTxt" -->
+<!--             android:layout_alignParentLeft="true" -->
+<!--             android:layout_marginLeft="8dp" -->
+<!--             android:text="@string/_" -->
+<!--             android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/HinnetextView" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_alignBottom="@+id/hinneTxt" -->
+<!--             android:layout_alignLeft="@+id/ProtsenttextView" -->
+<!--             android:text="@string/hinne" -->
+<!--             android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+
+        <TextView
+            android:id="@+id/hinneTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/punneSisend"
+            android:layout_below="@+id/protsentTxt"
+            android:layout_marginTop="13dp"
+            android:textStyle="bold"
+            android:background="#FFFFFF"
+            android:ems="1"
+            android:inputType="textCapCharacters"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/protsentTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/punneSisend"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/punneTxt"
+            android:background="#FFFFFF"
+            android:ems="3"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+        
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'keystore'
+            keyPassword 'gymna123'
+            storeFile file('/Users/vaino/Documents/workspace/keystore.jks')
+            storePassword 'gymna123'
+        }
+    }
+    compileSdkVersion 20
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId 'ee.parnu.tuisk.hindedfr'
+        minSdkVersion 11
+        targetSdkVersion 20
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:appcompat-v7:20.0.0'
+}

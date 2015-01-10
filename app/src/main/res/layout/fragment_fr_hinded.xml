@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC00"
+    tools:context="com.example.hindedfr.FrHinded" 
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+        <TextView
+        android:id="@+id/HindedLtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="22sp"
+        android:layout_marginStart="22sp"
+        android:layout_marginLeft="22sp"
+        android:layout_marginTop="15dp"
+        android:text="@string/hindedLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/HindededitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/HindedLtextView"
+        android:layout_alignBottom="@+id/HindedLtextView"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_toEndOf="@+id/HindedLtextView"
+        android:layout_toRightOf="@+id/HindedLtextView"
+        android:ems="8"
+        android:inputType="textCapCharacters"
+        android:textSize="28sp"
+        android:hint="@string/sisesta_hinded"
+        android:textColor="#000099" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/KeskmineVLtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/HindedLtextView"
+        android:layout_below="@+id/HindededitText"
+        android:layout_marginTop="24dp"
+        android:textSize="22sp"
+        android:text="@string/keskmineTLabel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/KeskminetextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/KeskmineVLtextView"
+        android:layout_alignBottom="@+id/KeskmineVLtextView"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="#000099"
+        android:textSize="28sp"
+        android:layout_toRightOf="@+id/KeskmineVLtextView"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/Nutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/KeskminetextView"
+        android:layout_marginTop="29dp"
+
+        android:text="@string/puhasta"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,5 @@
+/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/classes/debug
+/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-983792c4e5d4c543b69f932d0595d5928722fcd9.jar
+/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-8c2161cde3180ab857002a8048637a27e08487ac.jar
+/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/classes-37d1f0627dcd5d8bcd734e7e4c23da2969723d2b.jar
+/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/classes-6c4cafac0040ab1e09e828c15d37f0ea9c23ebd3.jar
