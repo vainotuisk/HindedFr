@@ -1,4 +1,8 @@
-HindedFr
+Hinded
 ========
+ver 1.0
+Android
 
-Järjekrodne Androidi hinnete katse
+Hinnete panemise abivahend:
+ hinne punktide protsendi järgi
+ täheliste hinnete keskmise leidmine
