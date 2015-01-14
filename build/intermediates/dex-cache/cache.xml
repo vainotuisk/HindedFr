@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
-        <dex dex="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/classes-37d1f0627dcd5d8bcd734e7e4c23da2969723d2b.jar" />
-    </item>
-    <item
-        jar="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-8c2161cde3180ab857002a8048637a27e08487ac.jar" />
-    </item>
-    <item
-        jar="/Users/vaino/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-983792c4e5d4c543b69f932d0595d5928722fcd9.jar" />
-    </item>
-    <item
-        jar="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jar="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="/Users/vaino/AndroidstudioProjects/HindedFr/app/build/intermediates/pre-dexed/debug/classes-6c4cafac0040ab1e09e828c15d37f0ea9c23ebd3.jar" />
+        <dex dex="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\pre-dexed\release\classes-6886e475b85d0c99f87bfb43ec08f4c17e67ffde.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\pre-dexed\release\classes-15e782bcaaccee6e32c4b6d3ff8265d05c081ad8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Väino\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-5555acba155741ba61763e6492f3148d1008f8c9.jar" />
+    </item>
+    <item
+        jar="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\AndroidStudioProjects\HindedFr\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-8c1640dcce4abf9417860a056021980b7e4e8719.jar" />
     </item>
 
 </items>

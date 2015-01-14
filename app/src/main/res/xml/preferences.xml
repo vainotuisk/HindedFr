@@ -6,9 +6,15 @@
         android:summary="seaded summary"
         android:defaultValue="true" />
     <EditTextPreference
-        android:key="edittext_preference"
-        android:title="Edit text eelistus"
-        android:summary="seaded summary2"
-        android:dialogTitle="dialoogi pealkiri"
+        android:key="edittext_preferenceA"
+        android:title="TiitelA"
+        android:summary="seaded summaryA"
+        android:dialogTitle="dialoogi pealkiriA"
          />
+    <EditTextPreference
+        android:key="edittext_preferenceB"
+        android:title="TiitelB"
+        android:summary="seaded summaryB"
+        android:dialogTitle="dialoogi pealkiriB"
+        />
 </PreferenceScreen>
