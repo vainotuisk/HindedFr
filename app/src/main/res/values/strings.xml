@@ -31,7 +31,7 @@
 <string name="hinne">Grade</string>
 <string name="_">%</string>
 <string name="sisesta_hinded">insert grades</string>
-    <string name="Hinded">Keskmine</string>
-    <string name="Hinne">Hinne</string>
+    <string name="Hinded">Average</string>
+    <string name="Hinne">Grade</string>
 
 </resources>
