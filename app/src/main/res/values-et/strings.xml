@@ -30,6 +30,7 @@
 <string name="punkte">Punkte</string>
 <string name="hinne">Hinne</string>
 <string name="_">%</string>
-<string name="sisesta_hinded">sisesta hinded</string> 
+<string name="sisesta_hinded">sisesta hinded</string>
+    <string name="Hinded">Average</string>
 
 </resources>
