@@ -22,7 +22,7 @@
     
     <string name="hindedLabel">Hinded</string>
     <string name="hindedEditText">A</string>
-<string name="keskmineTLabel">Avbe</string>
+<string name="keskmineTLabel">Keskmine hinne</string>
 <string name="keskmineTTextview">A</string>
 <string name="puhasta">Puhasta</string>
 <string name="max_punkte">Max punkte</string>

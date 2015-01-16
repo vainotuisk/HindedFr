@@ -6,30 +6,30 @@
     <string name="action_settings">Settings</string>
 
     
-    <string name="punne_textview">Punkte</string>
+    <string name="punne_textview">Points</string>
     <string name="punne_edittext">0</string>
     
-    <string name="punne_max_textview">Maksimumpunktid</string>
+    <string name="punne_max_textview">Maxpoints</string>
    <string name="punne_max_edittext">0</string>
    
     <string name="protsent_textview">%</string>
     <string name="protsent_tulmeus_textview">0</string>    
         
-    <string name="hinne_textview">Hinne</string>
+    <string name="hinne_textview">Grade</string>
     <string name="hinnetulemus_textview"> </string>
     
     
     
     <string name="hindedLabel">Grades</string>
     <string name="hindedEditText">A</string>
-<string name="keskmineTLabel">Keskmine hinne</string>
+<string name="keskmineTLabel">Average</string>
 <string name="keskmineTTextview">A</string>
-<string name="puhasta">Puhasta</string>
-<string name="max_punkte">Max punkte</string>
+<string name="puhasta">Clear</string>
+<string name="max_punkte">Max points</string>
 <string name="_0">0</string>
-<string name="punkte">Punkte</string>
-<string name="hinne">Hinne</string>
+<string name="punkte">Points</string>
+<string name="hinne">Grade</string>
 <string name="_">%</string>
-<string name="sisesta_hinded">sisesta hinded</string> 
+<string name="sisesta_hinded">insert grades</string>
 
 </resources>
