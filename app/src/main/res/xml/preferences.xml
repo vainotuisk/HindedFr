@@ -17,5 +17,10 @@
         android:summary="seaded summaryB"
         android:dialogTitle="dialoogi pealkiriB"
         />
-    
+    <EditTextPreference
+        android:key="edittext_preferenceC"
+        android:title="TiitelC"
+        android:summary="eelistuse C pealkirja piiri tekst"
+        android:dialogTitle="eelistuse C dialoogipealkiri"
+        android:defaultValue="75" />
 </PreferenceScreen>
