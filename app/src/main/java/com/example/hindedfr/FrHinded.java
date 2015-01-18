@@ -129,12 +129,12 @@ public class FrHinded extends Fragment {
 			{return "E";}
 			else if (ymardatud> 0)
 			{return "F";}
-			
+
 			else {
-				Toast.makeText(getActivity().getApplicationContext(),.getString(R.string.error_toast),Toast.LENGTH_SHORT).show();
+				Toast.makeText(getActivity().getApplicationContext(),R.string.error_toast,Toast.LENGTH_SHORT).show();
 				//( , ",Toast.LENGTH_LONG).show();
-				return "Viga!";}
-			
+				return(getString(R.string.veateade));}
+
 		}
 		
 		@Override

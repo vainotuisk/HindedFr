@@ -34,5 +34,7 @@
     <string name="Hinded">Keskmine</string>
     <string name="Hinne">Hinne</string>
     <string name="error_toast">Midagi läks valesti!</string>
+    <string name="veateade">Viga!</string>
+
 
 </resources>

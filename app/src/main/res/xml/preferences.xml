@@ -17,4 +17,5 @@
         android:summary="seaded summaryB"
         android:dialogTitle="dialoogi pealkiriB"
         />
+    
 </PreferenceScreen>

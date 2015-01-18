@@ -947,23 +947,25 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0b0010;
         public static final int action_settings=0x7f0b0011;
         public static final int app_name=0x7f0b0012;
-        public static final int hindedEditText=0x7f0b0013;
-        public static final int hindedLabel=0x7f0b0014;
-        public static final int hinne=0x7f0b0015;
-        public static final int hinne_textview=0x7f0b0016;
-        public static final int hinnetulemus_textview=0x7f0b0017;
-        public static final int keskmineTLabel=0x7f0b0018;
-        public static final int keskmineTTextview=0x7f0b0019;
-        public static final int max_punkte=0x7f0b001a;
-        public static final int protsent_textview=0x7f0b001b;
-        public static final int protsent_tulmeus_textview=0x7f0b001c;
-        public static final int puhasta=0x7f0b001d;
-        public static final int punkte=0x7f0b001e;
-        public static final int punne_edittext=0x7f0b001f;
-        public static final int punne_max_edittext=0x7f0b0020;
-        public static final int punne_max_textview=0x7f0b0021;
-        public static final int punne_textview=0x7f0b0022;
-        public static final int sisesta_hinded=0x7f0b0023;
+        public static final int error_toast=0x7f0b0013;
+        public static final int hindedEditText=0x7f0b0014;
+        public static final int hindedLabel=0x7f0b0015;
+        public static final int hinne=0x7f0b0016;
+        public static final int hinne_textview=0x7f0b0017;
+        public static final int hinnetulemus_textview=0x7f0b0018;
+        public static final int keskmineTLabel=0x7f0b0019;
+        public static final int keskmineTTextview=0x7f0b001a;
+        public static final int max_punkte=0x7f0b001b;
+        public static final int protsent_textview=0x7f0b001c;
+        public static final int protsent_tulmeus_textview=0x7f0b001d;
+        public static final int puhasta=0x7f0b001e;
+        public static final int punkte=0x7f0b001f;
+        public static final int punne_edittext=0x7f0b0020;
+        public static final int punne_max_edittext=0x7f0b0021;
+        public static final int punne_max_textview=0x7f0b0022;
+        public static final int punne_textview=0x7f0b0023;
+        public static final int sisesta_hinded=0x7f0b0024;
+        public static final int veateade=0x7f0b0025;
     }
     public static final class style {
         /** 

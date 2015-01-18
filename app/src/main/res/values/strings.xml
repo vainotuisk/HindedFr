@@ -34,5 +34,7 @@
     <string name="Hinded">Average</string>
     <string name="Hinne">Grade</string>
     <string name="error_toast">Something went wrong!</string>
+    <string name="veateade">Error!</string>
+
 
 </resources>
