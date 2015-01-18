@@ -131,7 +131,7 @@ public class FrHinded extends Fragment {
 			{return "F";}
 			
 			else {
-				Toast.makeText(getActivity().getApplicationContext(),"Midagi läks valesti!",Toast.LENGTH_SHORT).show();
+				Toast.makeText(getActivity().getApplicationContext(),.getString(R.string.error_toast),Toast.LENGTH_SHORT).show();
 				//( , ",Toast.LENGTH_LONG).show();
 				return "Viga!";}
 			

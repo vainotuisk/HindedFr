@@ -31,7 +31,8 @@
 <string name="hinne">Hinne</string>
 <string name="_">%</string>
 <string name="sisesta_hinded">sisesta hinded</string>
-    <string name="Hinded">Average</string>
+    <string name="Hinded">Keskmine</string>
     <string name="Hinne">Hinne</string>
+    <string name="error_toast">Midagi läks valesti!</string>
 
 </resources>
