@@ -144,10 +144,16 @@ ActionBar actionBar;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            getFragmentManager().beginTransaction().replace(android.R.id.content,new prefs()).commit();
+
             return true;
         }
         return super.onOptionsItemSelected(item);
     }
+
+//    private void seaded() {
+//        Log.i("tuisk","Seaded on valitud");
+//    }
 }
 class MyAdapter extends FragmentPagerAdapter
 {
