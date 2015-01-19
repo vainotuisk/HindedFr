@@ -35,6 +35,21 @@
     <string name="Hinne">Grade</string>
     <string name="error_toast">Something went wrong!</string>
     <string name="veateade">Error!</string>
+    <string name="a_value">A value</string>
+    <string name="a_value_protsent">A value %</string>
+    <string name="a_alampiir">insert grade A minimum percent</string>
+    <string name="b_value">B value</string>
+    <string name="b_value_protsent">B value %</string>
+    <string name="b_alampiir">insert grade B minimum percent</string>
+    <string name="c_value">C </string>
+    <string name="d_value">D </string>
+    <string name="e_value">E </string>
+    <string name="c_value_protsent">C value %</string>
+    <string name="d_value_protsent">D value %</string>
+    <string name="e_value_protsent">E value %</string>
+    <string name="c_alampiir">insert  C grade  minimum percent</string>
+    <string name="d_alampiir">insert   grade E  minimum percent</string>
+    <string name="e_alampiir">insert  grade E  minimum percent</string>
 
 
 </resources>

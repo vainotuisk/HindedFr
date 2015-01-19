@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBoxPreference
-        android:key="pref_sync"
-        android:title="seaded sünk"
-        android:summary="seaded summary"
-        android:defaultValue="true" />
+
     <EditTextPreference
         android:key="edittext_preferenceA"
-        android:title="TiitelA"
-        android:summary="seaded summaryA"
-        android:dialogTitle="dialoogi pealkiriA"
+        android:title="@string/a_value"
+        android:summary="@string/a_value_protsent"
+        android:dialogTitle="@string/a_alampiir"
+        android:defaultValue="95"
          />
     <EditTextPreference
         android:key="edittext_preferenceB"
-        android:title="TiitelB"
-        android:summary="seaded summaryB"
-        android:dialogTitle="dialoogi pealkiriB"
+        android:title="@string/b_value"
+        android:summary="@string/b_value_protsent"
+        android:dialogTitle="@string/b_alampiir"
+        android:defaultValue="89"
         />
     <EditTextPreference
         android:key="edittext_preferenceC"
-        android:title="TiitelC"
-        android:summary="eelistuse C pealkirja piiri tekst"
-        android:dialogTitle="eelistuse C dialoogipealkiri"
+        android:title="@string/c_value"
+        android:summary="@string/c_value_protsent"
+        android:dialogTitle="@string/c_alampiir"
         android:defaultValue="75" />
+    <EditTextPreference
+        android:key="edittext_preferenceD"
+        android:title="@string/d_value"
+        android:summary="@string/d_value_protsent"
+        android:dialogTitle="@string/d_alampiir"
+        android:defaultValue="65" />
+    <EditTextPreference
+        android:key="edittext_preferenceE"
+        android:title="@string/e_value"
+        android:summary="@string/e_value_protsent"
+        android:dialogTitle="@string/e_alampiir"
+        android:defaultValue="50" />
+
 </PreferenceScreen>

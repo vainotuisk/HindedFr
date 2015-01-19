@@ -35,6 +35,21 @@
     <string name="Hinne">Hinne</string>
     <string name="error_toast">Midagi läks valesti!</string>
     <string name="veateade">Viga!</string>
+    <string name="a_value">A </string>
+    <string name="a_alampiir">sisesta A väärtuse alampiir protsendina</string>
+    <string name="b_value">B </string>
+    <string name="b_value_protsent">B väärtuse  %</string>
+    <string name="b_alampiir">sisesta B väärtuse alampiir protsendina</string>
+    <string name="c_value">C </string>
+    <string name="d_value">D</string>
+    <string name="e_value">E</string>
+    <string name="c_value_protsent">C väärtuse  %</string>
+    <string name="d_value_protsent">D value %</string>
+    <string name="e_value_protsent">E väärtuse %</string>
+    <string name="c_alampiir">sisesta C väärtuse alampiir protsendina</string>
+    <string name="d_alampiir">sisesta D väärtuse alampiir protsendina</string>
+    <string name="e_alampiir">sisesta E väärtuse alampiir protsendina</string>
+    <string name="a_value_protsent">A väärtuse protsent</string>
 
 
 </resources>
