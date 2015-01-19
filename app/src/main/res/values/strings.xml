@@ -35,10 +35,10 @@
     <string name="Hinne">Grade</string>
     <string name="error_toast">Something went wrong!</string>
     <string name="veateade">Error!</string>
-    <string name="a_value">A value</string>
+    <string name="a_value">A</string>
     <string name="a_value_protsent">A value %</string>
     <string name="a_alampiir">insert grade A minimum percent</string>
-    <string name="b_value">B value</string>
+    <string name="b_value">B</string>
     <string name="b_value_protsent">B value %</string>
     <string name="b_alampiir">insert grade B minimum percent</string>
     <string name="c_value">C </string>

@@ -144,6 +144,7 @@ ActionBar actionBar;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            getActionBar().setDisplayHomeAsUpEnabled(true);
             getFragmentManager().beginTransaction().replace(android.R.id.content,new prefs()).commit();
 
             return true;
