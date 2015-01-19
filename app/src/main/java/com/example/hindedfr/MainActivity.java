@@ -5,16 +5,19 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
+import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.app.ActionBar;
 import android.app.ActionBar.Tab;
 import android.app.ActionBar.TabListener;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 
-public class MainActivity extends FragmentActivity implements TabListener {
+public class MainActivity extends ActionBarActivity implements TabListener {
 	ViewPager viewPager;
 ActionBar actionBar;
 
@@ -26,6 +29,8 @@ ActionBar actionBar;
 	private static final String PROTSENT= "PROTSENT";
 	private static final String HINDED = "HINDED";
 	private static final String KESKMINE = "KESKMINE";
+
+
 	
 	// Väärtuste muutujad
 	private int punne;
@@ -124,7 +129,25 @@ ActionBar actionBar;
 	
 	}
 
-	
+    // Actionbar menyy
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }
 class MyAdapter extends FragmentPagerAdapter
 {
