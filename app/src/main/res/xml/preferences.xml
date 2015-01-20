@@ -34,4 +34,14 @@
         android:dialogTitle="@string/e_alampiir"
         android:defaultValue="50" />
 
+
+<com.example.hindedfr.Numbrivalija
+    android:key="edittext_preferenceF"
+    android:title="@string/e_value"
+    android:summary="@string/e_value_protsent"
+    android:dialogTitle="@string/e_alampiir"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" />
+
 </PreferenceScreen>
