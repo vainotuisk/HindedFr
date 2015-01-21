@@ -1,17 +1,21 @@
 package com.example.hindedfr;
 
-import android.preference.DialogPreference;
-import android.widget.NumberPicker;
-import android.util.AttributeSet;
-import android.view.View;
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.preference.DialogPreference;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.NumberPicker;
+
 
 
 /**
  * Created by vaino on 20/01/15.
  */
 public class Numbrivalija extends DialogPreference{
+
     private int Minute = 0;
     private NumberPicker np= null;
 
@@ -80,6 +84,7 @@ public class Numbrivalija extends DialogPreference{
 
         Minute = getMinute(time);
     }
+    
     
     
 }
