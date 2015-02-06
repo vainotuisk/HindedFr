@@ -95,10 +95,8 @@ public class FrHinded extends Fragment {
 		private int getVaartus(String taht)
 		{
 			 int vaartus=0;
-			 
 			 vaartus=taht.toLowerCase().codePointAt(0);
             Log.e("Tuisk", "sisestuse väärtus on: " + vaartus);
-
                return 103 - vaartus;
 
 
