@@ -39,6 +39,7 @@
         android:layout_toRightOf="@+id/HindedLtextView"
         android:ems="8"
         android:inputType="textCapCharacters"
+        android:digits="ABCDEF"
         android:textSize="28sp"
         android:hint="@string/sisesta_hinded"
         android:textColor="#000099" >

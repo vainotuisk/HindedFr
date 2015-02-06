@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -62,7 +63,9 @@ public class FrHinded extends Fragment {
 		@Override
 		public void onTextChanged(CharSequence s, int start, int before, int count) {
 			try {
-				hinded= s.toString();
+
+                hinded= s.toString();
+
 			}
 			catch(Exception e)
 			{
@@ -94,7 +97,10 @@ public class FrHinded extends Fragment {
 			 int vaartus=0;
 			 
 			 vaartus=taht.toLowerCase().codePointAt(0);
-			return 103-vaartus;
+            Log.e("Tuisk", "sisestuse väärtus on: " + vaartus);
+
+               return 103 - vaartus;
+
 
 		}
 
