@@ -50,6 +50,7 @@
     <string name="c_alampiir">insert  C grade  minimum percent</string>
     <string name="d_alampiir">insert   grade E  minimum percent</string>
     <string name="e_alampiir">insert  grade E  minimum percent</string>
+    <string name="action_about">About</string>
 
 
 </resources>

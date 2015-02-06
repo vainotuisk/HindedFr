@@ -50,7 +50,7 @@
     <string name="d_alampiir">sisesta D väärtuse alampiir protsendina</string>
     <string name="e_alampiir">sisesta E väärtuse alampiir protsendina</string>
     <string name="a_value_protsent">A väärtuse protsent</string>
-
+    <string name="action_about">About</string>
 
 
 </resources>
